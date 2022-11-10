@@ -86,7 +86,7 @@ body {
   border-radius: 3px;
 }
 .bg-primary {
-  background-color: #15408e !important;
+  background-color: #ff7900 !important;
 }
 .bg-success {
   background-color: #fcc728 !important;
@@ -102,8 +102,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #15408e !important;
-  border-color: #15408e !important;
+  background-color: #ff7900 !important;
+  border-color: #ff7900 !important;
   color: #ffffff !important;
 }
 .btn-primary:hover,
@@ -111,14 +111,14 @@ body {
 .btn-primary.focus,
 .btn-primary.active {
   color: #ffffff !important;
-  background-color: #0b224b !important;
-  border-color: #0b224b !important;
+  background-color: #b35500 !important;
+  border-color: #b35500 !important;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #0b224b !important;
-  border-color: #0b224b !important;
+  background-color: #b35500 !important;
+  border-color: #b35500 !important;
 }
 .btn-secondary,
 .btn-secondary:active {
@@ -266,22 +266,22 @@ body {
 .btn-primary-outline,
 .btn-primary-outline:active {
   background: none;
-  border-color: #081835;
-  color: #081835;
+  border-color: #994900;
+  color: #994900;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #15408e;
-  border-color: #15408e;
+  background-color: #ff7900;
+  border-color: #ff7900;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #15408e !important;
-  border-color: #15408e !important;
+  background-color: #ff7900 !important;
+  border-color: #ff7900 !important;
 }
 .btn-secondary-outline,
 .btn-secondary-outline:active {
@@ -418,7 +418,7 @@ body {
   border-color: #ffffff;
 }
 .text-primary {
-  color: #15408e !important;
+  color: #ff7900 !important;
 }
 .text-secondary {
   color: #ff3366 !important;
@@ -443,7 +443,7 @@ body {
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #081835 !important;
+  color: #994900 !important;
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
@@ -501,8 +501,8 @@ a.text-black:focus {
   border-radius: 100px !important;
 }
 .mbr-gallery-filter li.active .btn {
-  background-color: #15408e;
-  border-color: #15408e;
+  background-color: #ff7900;
+  border-color: #ff7900;
   color: #ffffff;
 }
 .mbr-gallery-filter li.active .btn:focus {
@@ -513,11 +513,11 @@ a.text-black:focus {
 }
 a,
 a:hover {
-  color: #15408e;
+  color: #ff7900;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #407ae3;
+  color: #ffe4cc;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -548,7 +548,7 @@ a:hover {
   font-size: 1.6rem;
 }
 blockquote {
-  border-color: #15408e;
+  border-color: #ff7900;
 }
 /* Forms */
 .mbr-form .btn {
@@ -578,11 +578,11 @@ blockquote {
 /* Footer */
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #15408e;
+  background: #ff7900;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #15408e;
+  color: #ff7900;
 }
 .footer3 input[type="email"],
 .footer4 input[type="email"] {
@@ -624,7 +624,7 @@ blockquote {
 }
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
-  background-color: #15408e;
+  background-color: #ff7900;
   color: #ffffff;
 }
 .jq-selectbox .jq-selectbox__trigger-arrow,
@@ -637,14 +637,14 @@ blockquote {
 .jq-selectbox:hover .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:hover:after,
 .jq-number__spin.plus:hover:after {
-  border-top-color: #15408e;
-  border-bottom-color: #15408e;
+  border-top-color: #ff7900;
+  border-bottom-color: #ff7900;
 }
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
-  color: #ffffff !important;
-  background-color: #15408e !important;
+  color: #000000 !important;
+  background-color: #ff7900 !important;
   box-shadow: none !important;
 }
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
@@ -673,19 +673,19 @@ iframe.lazy-placeholder,
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='32' height='32' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' stroke='%2315408e' %3e%3cg fill='none' fill-rule='evenodd'%3e%3cg transform='translate(16 16)' stroke-width='2'%3e%3ccircle stroke-opacity='.5' cx='16' cy='16' r='16'/%3e%3cpath d='M32 16c0-9.94-8.06-16-16-16'%3e%3canimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='1s' repeatCount='indefinite'/%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='32' height='32' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg' stroke='%23ff7900' %3e%3cg fill='none' fill-rule='evenodd'%3e%3cg transform='translate(16 16)' stroke-width='2'%3e%3ccircle stroke-opacity='.5' cx='16' cy='16' r='16'/%3e%3cpath d='M32 16c0-9.94-8.06-16-16-16'%3e%3canimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='1s' repeatCount='indefinite'/%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
 }
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-rCpGGrENNt .navbar {
   padding: .5rem 0;
-  background: #fcc728;
+  background: #232323;
   transition: none;
   min-height: 77px;
 }
 .cid-rCpGGrENNt .navbar-dropdown.bg-color.transparent.opened {
-  background: #fcc728;
+  background: #232323;
 }
 .cid-rCpGGrENNt a {
   font-style: normal;
@@ -776,7 +776,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-rCpGGrENNt .dropdown .dropdown-menu {
-  background: #fcc728;
+  background: #232323;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1083,7 +1083,7 @@ section.lazy-placeholder:after {
 .cid-tm8KeX2EEq {
   padding-top: 15px;
   padding-bottom: 15px;
-  background: linear-gradient(0deg, #030303, #fcc728);
+  background: linear-gradient(0deg, #030303, #333333);
 }
 .cid-tm8KeX2EEq .mbr-iconfont-social {
   font-size: 32px;
@@ -1100,7 +1100,7 @@ section.lazy-placeholder:after {
 .cid-tm874eJs4A {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/jonas-augustin-hj29-l0zyu4-unsplash-2000x1126.jpeg");
+  background-image: url("../../../assets/images/whatsapp-image-2022-11-05-at-14.28.21-822x768.jpeg");
 }
 .cid-tm874eJs4A .media-container-row {
   flex-direction: row-reverse;
@@ -1122,6 +1122,12 @@ section.lazy-placeholder:after {
   .cid-tm874eJs4A .mbr-text {
     text-align: center;
   }
+}
+.cid-tm874eJs4A P {
+  color: #ff7900;
+}
+.cid-tm874eJs4A H1 {
+  color: #ff7900;
 }
 .cid-rCpIehAUFB {
   padding-top: 90px;
@@ -1187,7 +1193,7 @@ section.lazy-placeholder:after {
 .cid-rCueIMbRD8 {
   padding-top: 15px;
   padding-bottom: 0px;
-  background-color: #fcc728;
+  background-color: #232323;
 }
 @media (max-width: 767px) {
   .cid-rCueIMbRD8 .media-wrap {
@@ -1256,12 +1262,12 @@ section.lazy-placeholder:after {
 }
 .cid-rCpGGrENNt .navbar {
   padding: .5rem 0;
-  background: #fcc728;
+  background: #232323;
   transition: none;
   min-height: 77px;
 }
 .cid-rCpGGrENNt .navbar-dropdown.bg-color.transparent.opened {
-  background: #fcc728;
+  background: #232323;
 }
 .cid-rCpGGrENNt a {
   font-style: normal;
@@ -1352,7 +1358,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-rCpGGrENNt .dropdown .dropdown-menu {
-  background: #fcc728;
+  background: #232323;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1711,12 +1717,12 @@ section.lazy-placeholder:after {
 }
 .cid-rCpGGrENNt .navbar {
   padding: .5rem 0;
-  background: #fcc728;
+  background: #232323;
   transition: none;
   min-height: 77px;
 }
 .cid-rCpGGrENNt .navbar-dropdown.bg-color.transparent.opened {
-  background: #fcc728;
+  background: #232323;
 }
 .cid-rCpGGrENNt a {
   font-style: normal;
@@ -1807,7 +1813,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-rCpGGrENNt .dropdown .dropdown-menu {
-  background: #fcc728;
+  background: #232323;
   display: none;
   position: absolute;
   min-width: 5rem;
